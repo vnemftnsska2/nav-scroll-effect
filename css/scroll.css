@@ -5,7 +5,7 @@ body {background-color: #BFC9CA;}
 .container {display: flex;}
 .sideMenu {position: sticky; top:0; height: 100%; white-space: nowrap; background-color:#BFC9CA;}
 .sideMenu ul {list-style: none; margin: 0; padding: 0;}
-.sideMenu ul li a {display: block; padding: 1rem 4rem; color: #F8F9F9; text-decoration: none;}
-.sideMenu ul li a.current{background-color:#D6DBDF;}
+.sideMenu ul li {display: block; padding: 1rem 4rem; color: #F8F9F9; text-decoration: none;}
+.sideMenu ul li.current{background-color:#D6DBDF;}
 .main {width: 100%; padding-bottom: 25rem; background-color: #F8F9F9;}
 .main section {padding: 2rem; margin: 0 0 2rem 0;}
